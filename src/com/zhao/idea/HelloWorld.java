@@ -2,6 +2,7 @@ package com.zhao.idea;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 /**
  * 1.向下新开一行，无论光标在这行的哪个位置 ctrl+shift+enter
@@ -28,6 +29,7 @@ public class HelloWorld {
         // 自动补全类型及变量 快捷键 ctrl+alt+v 或者 alt+enter
         String zhao = "zhao";
         Date date = new Date();
+        HashMap<String, Integer> map = new HashMap<>();
 
         String s = zhao.substring(1, zhao.length());
         // 将要输出的内容后面加 .sout 或者 直接输入sout也可以生成完整的输出方法，不过要把内容填进参数
