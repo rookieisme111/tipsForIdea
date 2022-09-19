@@ -39,7 +39,7 @@ public class HelloWorld {
     }
 
     public void foo() {
-
+        System.out.println("谢谢");
         return;
     }
 

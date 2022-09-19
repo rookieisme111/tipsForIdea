@@ -18,6 +18,7 @@ public class Test1 {
         arrayList.add("123");
         arrayList.add("456");
         arrayList.add("789");
+        System.out.println(arrayList.toArray());
     }
 
     private static void foo() {
